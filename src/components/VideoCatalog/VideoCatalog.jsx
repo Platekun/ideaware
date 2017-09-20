@@ -5,6 +5,7 @@ import Wrapper from '../presentational/Wrapper';
 import search from 'youtube-search';
 import _ from 'lodash';
 import axios from 'axios';
+import './VideoCatalog.css';
 import { YOUTUBE_API_KEY, CATEGORIES_RESOURCE } from '../../constants';
 
 const SEARCH_SETTINGS = { maxResults: 12, key: YOUTUBE_API_KEY, type: 'video' };
