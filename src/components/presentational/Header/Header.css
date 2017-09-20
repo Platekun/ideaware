@@ -41,12 +41,10 @@
     justify-content: space-around;
     padding: 0;
   }
-
   .idea-header__nav {
     font-size: 0.955em;
     width: calc(100% - 184px);
   }
-
   .idea-header__list {
     text-align: right !important;
   }
