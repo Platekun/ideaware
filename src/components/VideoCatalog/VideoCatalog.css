@@ -1,0 +1,13 @@
+.video-catalog {
+  margin-bottom: 27px;
+}
+
+.video-catalog .ui.grid>.column:not(.row) {
+  padding-bottom: 14.5px;
+  padding-top: 14.5px;
+}
+
+.video-catalog .ui.grid>* {
+  padding-left: 14.5px;
+  padding-right: 14.5px;
+}

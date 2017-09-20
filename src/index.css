@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Roboto;
+  src: url("./assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("./assets/fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Thin";
+  src: url("./assets/fonts/Roboto-Thin.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px !important;
+}
+
+main {
+  margin-bottom: 1.5em;
+}
+

@@ -1,0 +1,104 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "reset.css";
+.carousel {
+  margin-bottom: 3.75em;
+}
+
+.carousel__slide {
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 401px;
+}
+
+.carousel__slide--bg1 {
+  background-image: url("../../assets/images/Layer_2.jpg");
+}
+
+.carousel__slide--bg2 {
+  background-image: url("../../assets/images/layer_1.jpg");
+}
+
+.carousel__slide--bg3 {
+  background-image: url("../../assets/images/layer_3.jpg");
+}
+
+.carousel__slide-content {
+  text-align: center;
+}
+
+.carousel__slide-title {
+  color: white;
+  font-family: "Roboto Bold";
+  font-size: 2.1em;
+  font-weight: bold;
+  margin-bottom: 1.25rem;
+}
+
+.carousel__slide-title span {
+  font-family: "Roboto Thin";
+}
+
+.carousel__slide-subtitle {
+  color: white;
+  font-family: "Roboto Thin";
+  font-size: 1.041875em;
+}
+
+@media screen and (min-width: 37.5em) {
+  .carousel__slide {
+    display: block;
+    padding-top: 4.6875em;
+    position: relative;
+  }
+  .carousel__computer {
+    background-image: url("../../assets/images/Computer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 213px;
+    left: 50%;
+    position: absolute;
+    top: 18.0625em;
+    transform: translateX(-50%);
+    width: 430px;
+    z-index: 20;
+  }
+  .carousel__computer-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 165px;
+    left: 50%;
+    position: absolute;
+    top: 18.875em;
+    transform: translateX(-50%);
+    width: 259px;
+    z-index: 21;
+  }
+  .carousel__computer-image--bg1 {
+    background-image: url("../../assets/images/vision_2.png");
+  }
+  .carousel__computer-image--bg2 {
+    background-image: url("../../assets/images/vision_1.png");
+  }
+  .carousel__slide-title {
+    font-size: 2.829375em;
+  }
+}
+
+@media screen and (min-width: 56.25em) {
+  .carousel {
+    margin-bottom: 8.6875em;
+  }
+  .carousel__computer {
+    height: 426px;
+    top: 12.1875em;
+    width: 860px;
+  }
+  .carousel__computer-image {
+    height: 326px;
+    top: 14em;
+    width: 522px;
+  }
+}

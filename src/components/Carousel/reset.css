@@ -1,0 +1,46 @@
+.slick-dots {
+  bottom: unset;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 1.9375em;
+  top: 10.625em;
+  width: auto;
+}
+
+.slick-dots li {
+  border-radius: 50px;
+  border: 1px solid white;
+  box-shadow: 0 0 0.5px white;
+  display: block;
+  height: 15px;
+  margin: 1.25em 0;
+  width: 15px;
+}
+
+.slick-dots li:first-child {
+  margin-top: 0;
+}
+
+.slick-dots li:last-child {
+  margin-bottom: 0;
+}
+
+.slick-dots li button:before {
+  content: none;
+}
+
+@media screen and (min-width: 37.5em) {
+  .slick-list,
+  .slick-track {
+    height: 539px;
+  }
+}
+
+@media screen and (min-width: 56.25em) {
+  .slick-list,
+  .slick-track {
+    height: 650px;
+  }
+}

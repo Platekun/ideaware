@@ -1,0 +1,25 @@
+.explanation {
+  color: #616161;
+  font-family: "Roboto Thin";
+  font-size: 1.054375em;
+  font-weight: lighter;
+  margin-bottom: 7.9375rem;
+}
+
+.explanation__title {
+  font-size: 1.62500em;
+  margin-bottom: 1.87500rem;
+  text-align: center;
+}
+
+.explanation__text {
+  line-height: 23px;
+  text-align: justify;
+}
+
+@media screen and (min-width: 37.5em) {
+  .explanation__title{
+    font-size: 2.108125rem;
+    text-align: justify;
+  }
+}

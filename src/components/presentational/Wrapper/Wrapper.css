@@ -1,0 +1,6 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: calc(100% - 123px);
+  position: relative;
+  width: 952px;
+}
